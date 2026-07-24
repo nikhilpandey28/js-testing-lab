@@ -1,0 +1,30 @@
+{
+  "name": "js-testing-lab",
+  "version": "1.0.0",
+  "description": "This project demonstrates the basics of unit testing using both **Vitest** and **Jest**.",
+  "main": "index.js",
+  "scripts": {
+    "test:vitest": "vitest",
+    "coverage:vitest": "vitest run --coverage",
+
+    "test:jest": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "coverage:jest": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpandey28/js-testing-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nikhilpandey28/js-testing-lab/issues"
+  },
+  "homepage": "https://github.com/nikhilpandey28/js-testing-lab#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.10",
+    "jest": "^30.4.2",
+    "vitest": "^4.1.10"
+  }
+}
